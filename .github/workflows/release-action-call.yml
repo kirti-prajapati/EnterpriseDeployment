@@ -12,7 +12,7 @@ jobs:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: ProcessOwnerTest
+      solution_name: Enterprise
       #Update your values here
       BUILD_ENVIRONMENT_URL: 'https://spcdev.crm8.dynamics.com/'
       PRODUCTION_ENVIRONMENT_URL: 'https://spcqa.crm8.dynamics.com/'
